@@ -44,3 +44,4 @@ IF(
 )
 Variance Margin =
 DIVIDE([Variance], [Target])
+Bikes = CALCULATE(Sum(AdventureWorks_Products[ProductCost]), AdventureWorks_Product_Categories[CategoryName] = "Bikes")
